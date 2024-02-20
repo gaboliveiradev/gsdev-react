@@ -1,10 +1,11 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
+import Home from './Pages/Home';
 
 const Routing = () => {
     return (
         <Routes>
-            <Route element={<h1>Rota teste</h1>} path="/" />
+            <Route element={<Home />} path="/" />
         </Routes>
     )
 };
