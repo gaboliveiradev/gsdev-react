@@ -1,5 +1,5 @@
 import React from 'react';
-import image from './../Assets/3.png';
+import image from './../Assets/start.png';
 import Button from './SmallComponents.js/Button';
 
 export default function Start() {

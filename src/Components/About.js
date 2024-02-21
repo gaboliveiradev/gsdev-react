@@ -1,5 +1,6 @@
 import React from 'react';
 import CardAbout from './SmallComponents.js/CardAbout';
+import about from './../Assets/about.png';
 
 export default function About() {
     return (
@@ -24,6 +25,17 @@ export default function About() {
                     title='Clientes Satisfeitos'
                     description='Pelo mundo com suas expectativas superadas e suas marcas fortalecidas.'
                 />
+            </div>
+            <div className='pt-20 flex justify-between items-center'>
+                <div className='w-[50%]'>
+                    <h1 className='text-[26px] font-bold text-gray'>Personalizando o amanhã digital</h1>
+                    <p className='py-2'>
+                        Em 2024, a GS DEV emergiu com uma missão singular: elevar negócios em todo o Brasil ao patamar digital com sites que não só apresentam, mas performam. Especialista em e-commerce, websites corporativos e landing pages que não apenas atraem, mas convertem, a GS DEV é a força criativa por trás de soluções web que refletem a individualidade e as aspirações de cada marca, empresa ou profissional. Aqui, cada projeto é mais que uma entrega; é a materialização da sua visão digital, esculpida com precisão técnica e uma estética inovadora.
+                    </p>
+                </div>
+                <div>
+                    <img class="h-80 w-auto" src={about} alt="Imagem Decorativa" />
+                </div>
             </div>
         </div>
     );
