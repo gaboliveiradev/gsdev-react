@@ -1,5 +1,6 @@
 import React from 'react';
 import image from './../Assets/3.png';
+import Button from './SmallComponents.js/Button';
 
 export default function Start() {
     return (
@@ -11,6 +12,11 @@ export default function Start() {
                 <div className='w-[50%]'>
                     <h1 className='text-[48px] font-bold'>Transformando ideias em realidade digital</h1>
                     <p className='py-6 text-[22px] text-gray-ligth'>Inicie seu sucesso online com a GS DEV, uma empresa inovadora de desenvolvimento de software dedicada a transformar ideias em soluções digitais de excelência.</p>
+                    <div>
+                        <Button>
+                            Vamos Inovar Juntos
+                        </Button>
+                    </div>
                 </div>
             </div>
         </div>

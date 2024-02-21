@@ -1,6 +1,6 @@
 import React from 'react';
 import Logo from './../../Assets/logo.png';
-import Button from './Button';
+import ButtonHeader from './ButtonHeader';
 
 export default function Header() {
     return (
@@ -35,7 +35,7 @@ export default function Header() {
                             </div>
                         </div>
                         <div>
-                            <Button>Fale Comigo</Button>
+                            <ButtonHeader>Fale Comigo</ButtonHeader>
                         </div>
                     </div>
                 </div>
