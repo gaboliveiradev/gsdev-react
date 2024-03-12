@@ -3,6 +3,7 @@ import Header from '../Components/SmallComponents.js/Header';
 import Start from '../Components/Start';
 import ParticlesBackground from '../Components/SmallComponents.js/ParticlesBackground';
 import About from '../Components/About';
+import Services from '../Components/Services';
 
 export default function Home() {
     return (
@@ -18,6 +19,9 @@ export default function Home() {
             </header>
             <section>
                 <About />
+            </section>
+            <section>
+                <Services />
             </section>
         </main>
     )

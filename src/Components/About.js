@@ -7,7 +7,7 @@ export default function About() {
         <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
             <div className='flex flex-col justify-center items-center'>
                 <h3 className='uppercase font-bold text-secondary-color text-[20px]'>Soluções Digitais Sob Medida</h3>
-                <h1 className='text-center w-[50%] font-bold text-[48px]'>Defina sua presença digital com a GS DEV</h1>
+                <h1 className='text-center w-[50%] font-bold text-[58px]'>Defina sua presença digital com a GS DEV</h1>
             </div>
             <div className='pt-6 flex flex-wrap justify-between items-center'>
                 <CardAbout

@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function CardAbout(props) {
     return (
-        <div className='border-2 p-3 w-[33%] rounded-md'>
+        <div className='bg-white border-2 shadow-md p-3 w-[33%] rounded-md'>
             <div className='font-bold text-[58px] text-center text-primary-color'>
                 + de {props.quantity}
             </div>
